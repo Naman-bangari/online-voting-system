@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="../css/2.css">
+</head>
+<body>
+    <style>
+        #address{
+            width:35%;
+        }
+        #img{
+            border:2px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            width:30%;
+        }
+        #gen{
+            border:2px solid black;
+            border-radius: 19px;
+            padding: 8px;
+            width:30%;
+        }
+        #gen select{
+            border-radius: 7px;
+            padding: 5px;
+        }
+    </style>
+    <hr>
+    <h1>registration</h1>
+    <br><br>
+    <form action="../api/register.php"method="POST" enctype="multipart/form-data">
+        <input type="text"name="name"placeholder="Entre Name">
+        <input type="number"name="mobile"placeholder="Entre Mobile"><br><br>
+        <input type="password"name="password"placeholder="Enter Password">
+        <input type="password"name="cpassword"placeholder="Confirm Password"><br><br>
+        <input id="address"type="text"name="address"placeholder="Entre Address"><br><br>
+        <center>
+            <div id="img">
+             Upload your image<input type="file"name="photo"><br><br>
+             </div><br>
+             <div id="gen">
+             Entre gender:<select name="gender">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Others</option>
+             </select><br><br>
+            </div>
+        </center><br>
+        <button style="padding:5px;
+                     border-radius: 7px;
+                    background-color: darkblue;
+                    color: aliceblue;">Register</button><br><br>
+        Already user?<a href="../index.html">Login Here</a>
+    </form>
+</body>
+</html>

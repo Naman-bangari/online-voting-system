@@ -1,0 +1,11 @@
+body{
+    font-size: large;
+    text-align: center;
+    background-color: rgba(113, 232, 143, 0.669);
+}    
+input{
+    padding:12px;
+    border-radius: 7px;
+    
+}
+

@@ -1,0 +1,32 @@
+body{
+    
+    font-size: larger;
+    text-align: center;
+    background-color: lightblue;
+}
+#hsection{
+    padding:15px;
+    font-family: cursive;
+    font-size: larger;
+}
+#bsection select{
+    width: 20%;
+}
+input{
+    padding:12px;
+    border-radius: 7px;
+    
+}
+
+#drop{
+    padding:10px;
+    border-radius: 7px;
+    width:15%;
+}
+#loginb{
+    font-size: medium;
+    padding:5px;
+    border-radius: 7px;
+    background-color: darkblue;
+    color: aliceblue;
+}

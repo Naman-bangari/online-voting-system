@@ -1,0 +1,48 @@
+body{
+    font-size: larger;
+    text-align: center;
+    background-color: mediumpurple;
+    
+    
+}
+#backbtn{
+    font-size: medium;
+    padding:5px;
+    border-radius: 7px;
+    background-color: darkblue;
+    color: aliceblue;
+    float: left;
+    
+}
+#logoutbtn{
+    font-size: medium;
+    padding:5px;
+    border-radius: 7px;
+    background-color: darkblue;
+    color: aliceblue;
+    float: right;
+}
+#profile{
+    float: left;
+        padding: 20px;
+    background-color: white;
+    width: 30%;
+}
+#main{
+    padding: 10px;
+}
+#group{
+    float: right;
+    padding: 20px;
+    background-color: white;
+    width: 60%;
+    border-radius: 7%;
+}
+#group2{
+    float: right;
+    padding: 20px;
+    background-color: white;
+    width: 60%;
+    
+    border-radius: 7%;
+}
